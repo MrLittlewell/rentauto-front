@@ -1,0 +1,22 @@
+@import "./fonts/Gillroy/stylesheet.css";
+
+* {
+  font-family: Gilroy;
+}
+
+html {
+  font-size: 12pt;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-button {
+  margin-right: 30px;
+}
