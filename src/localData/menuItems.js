@@ -6,6 +6,7 @@ export const menuItems = [
   'Прокат дополнительного оборудования',
 ]
 
+
 export default {
   menuItems,
 }

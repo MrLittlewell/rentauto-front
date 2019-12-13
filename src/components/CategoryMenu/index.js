@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import Container from '../Container'
 import { ListItems, ListItem, ListItemLink } from './styled'
 
-import { menuItems } from '../../localData/index'
+import { menuItems } from '../../localData/menuItems'
 
 export class CategoryMenu extends Component {
 
