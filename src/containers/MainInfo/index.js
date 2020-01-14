@@ -6,26 +6,12 @@ import Container from '../../components/Container'
 import exampleImg from '../../img/bg.jpg'
 import { StyledH2 } from './styled'
 
-import advantages from '../../localData/advantages'
+import { advantages } from '../../localData/'
 
 export default class MainInfo extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
 
   render() {
     const { Panel } = Collapse;
-    const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
-    console.log(advantages.map((item, index) => {
-      return (
-        <p>{item}</p>
-      )
-    }));
-
     return (
       <Container>
         <StyledH2>ПРЕИМУЩЕСТВА</StyledH2>
@@ -33,9 +19,11 @@ export default class MainInfo extends Component {
           <Col span={10}><img src={exampleImg} style={{ width: '100%' }} /></Col>
           <Col span={14}>
             <Collapse accordion>
-              <Panel header="This is panel header 1" key="1">
-                <p>{text}</p>
-              </Panel>
+              {advantages.map((item, index) => (
+                <Panel header={item.title} key={index}>
+                  <p>{item.description}</p>
+                </Panel>
+              ))}
             </Collapse>
           </Col>
         </Row>

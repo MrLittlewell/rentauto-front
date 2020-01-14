@@ -41,6 +41,15 @@ export const HeaderDivItems = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
+     div {
+       display: flex;
+       align-items: center;
+
+       a {
+         color: white;
+         font-weight: bold;
+       }
+     }
 `
 export const Title = styled.h1`
     margin-top: 100px;
