@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Button, Icon } from 'antd';
 import Container from '../../components/Container'
 import {
@@ -8,45 +8,32 @@ import {
   HeaderDivItems
 } from './styled'
 
+import './header.css';
 
-
-class Header extends Component {
-  constructor(props) {
-    super()
-    this.state = {
-
-    }
-  }
-
-  render() {
-    return (
-      <Wrapper>
-        <HeaderDiv>
-          <Container>
-            <HeaderDivItems>
-              <div>
-                <Icon type="dingding" style={{ fontSize: '60px', color: '#fefefe' }} />
-                <a href="tel:+375295555555">+375(29)555-55-55</a>
-              </div>
-
-              <div>
-                <Button type="primary">Оставьте заявкку для сотружничества</Button>
-              </div>
-            </HeaderDivItems>
-          </Container>
-        </HeaderDiv>
+const Header = () => {
+  return (
+    <Wrapper>
+      <HeaderDiv>
         <Container>
-          <Title>
-            АРЕНДА АВТОМОБИЛЯ<br /> удобно и комфортно
-          </Title>
+          <HeaderDivItems>
+            <div>
+              <Icon type="dingding" style={{ fontSize: '60px', color: '#fefefe' }} />
+              <a href="tel:+375295555555">+375(29)555-55-55</a>
+            </div>
+
+            <div>
+              <Button type="primary" className="header__button">Оставьте заявкку для сотружничества</Button>
+            </div>
+          </HeaderDivItems>
         </Container>
-      </Wrapper>
-    )
-  }
-}
-
-Header.propTypes = {
-
+      </HeaderDiv>
+      <Container>
+        <Title>
+          АРЕНДА АВТОМОБИЛЯ<br /> удобно и комфортно
+        </Title>
+      </Container>
+    </Wrapper>
+  )
 }
 
 export default Header
