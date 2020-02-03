@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from '../../containers/Header';
 import CategoryMenu from '../../components/CategoryMenu';
 import MainInfo from '../../containers/MainInfo';
+import { FirstCategory } from '../../features';
 import {
   AppWraper,
 } from './styled';
@@ -20,7 +21,7 @@ export class Home extends Component {
             <MainInfo />
           </Route>
           <Route path="/category-1">
-            <p>1</p>
+            <FirstCategory />
           </Route>
           <Route path="/category-2">
             <p>2</p>
