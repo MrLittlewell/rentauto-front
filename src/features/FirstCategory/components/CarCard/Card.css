@@ -1,0 +1,49 @@
+.car-card {
+  width: 300px;
+  margin: 15px!important;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.car-card__imgage img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.car-card__info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.car-card__info-blocks {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.car-card__order {
+  width: 90%;
+  margin: 0 auto -5px;
+  display: inherit!important;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)!important;
+}
+.car-card__icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.car-card__info-block-two {
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+}
+.car-card__icons div {
+  display: flex;
+  align-items: center;
+}
+.car-card__icons div i {
+  margin-right: 5px;
+}
+.car-card__icons div p {
+  margin: 0;
+}
