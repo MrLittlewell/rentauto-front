@@ -1,2 +1,1 @@
-export { CarCard } from './CarCard';
-export { FirstCategory } from './FirstCategory';
+export * from './FirstCategory';

@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from '../../containers/Header';
 import CategoryMenu from '../../components/CategoryMenu';
 import MainInfo from '../../containers/MainInfo';
-import { FirstCategory } from '../../features';
+import { FirstCategory } from '../FirstCategory';
 import {
   AppWraper,
 } from './styled';

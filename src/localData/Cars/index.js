@@ -4,42 +4,122 @@ export const cars = [
   {
     carImg: carIMg,
     cardTitle: "Авто",
-    cardDescription: 'Описание авто'
-  },
-  {
-    carImg: carIMg,
-    cardTitle: "Авто 2",
-    cardDescription: 'Описание авто 2'
-  },
-  {
-    carImg: carIMg,
-    cardTitle: "Авто 3",
-    cardDescription: 'Описание авто 3'
-  },
-  {
-    carImg: carIMg,
-    cardTitle: "Авто 4",
-    cardDescription: 'Описание авто 4'
+    cardDescription: 'Описание авто',
+    price: 50,
+    settings: {
+      mark: "Volkswagen",
+      model: "Polo",
+      class: "Компактный (B)",
+      bodyTypes: "Седан",
+      yearOfIssue: "2018",
+      color: "Серый",
+      fuel: "Бензин",
+      transmission: "Механика",
+      averageFuelConsumption: "6.5 Л",
+      engineCapacity: "1.6 Л.",
+      numberOfSeats: "5",
+      trunk: "460 Л",
+    }
   },
   {
     carImg: carIMg,
     cardTitle: "Авто",
-    cardDescription: 'Описание авто'
+    cardDescription: 'Описание авто',
+    price: 50,
+    settings: {
+      mark: "Volkswagen",
+      model: "Polo",
+      class: "Компактный (B)",
+      bodyTypes: "Седан",
+      yearOfIssue: "2018",
+      color: "Серый",
+      fuel: "Бензин",
+      transmission: "Механика",
+      averageFuelConsumption: "6.5 Л",
+      engineCapacity: "1.6 Л.",
+      numberOfSeats: "5",
+      trunk: "460 Л",
+    }
   },
   {
     carImg: carIMg,
-    cardTitle: "Авто 2",
-    cardDescription: 'Описание авто 2'
+    cardTitle: "Авто",
+    cardDescription: 'Описание авто',
+    price: 50,
+    settings: {
+      mark: "Volkswagen",
+      model: "Polo",
+      class: "Компактный (B)",
+      bodyTypes: "Седан",
+      yearOfIssue: "2018",
+      color: "Серый",
+      fuel: "Бензин",
+      transmission: "Механика",
+      averageFuelConsumption: "6.5 Л",
+      engineCapacity: "1.6 Л.",
+      numberOfSeats: "5",
+      trunk: "460 Л",
+    }
   },
   {
     carImg: carIMg,
-    cardTitle: "Авто 3",
-    cardDescription: 'Описание авто 3'
+    cardTitle: "Авто",
+    cardDescription: 'Описание авто',
+    price: 50,
+    settings: {
+      mark: "Volkswagen",
+      model: "Polo",
+      class: "Компактный (B)",
+      bodyTypes: "Седан",
+      yearOfIssue: "2018",
+      color: "Серый",
+      fuel: "Бензин",
+      transmission: "Механика",
+      averageFuelConsumption: "6.5 Л",
+      engineCapacity: "1.6 Л.",
+      numberOfSeats: "5",
+      trunk: "460 Л",
+    }
   },
   {
     carImg: carIMg,
-    cardTitle: "Авто 4",
-    cardDescription: 'Описание авто 4'
+    cardTitle: "Авто",
+    cardDescription: 'Описание авто',
+    price: 50,
+    settings: {
+      mark: "Volkswagen",
+      model: "Polo",
+      class: "Компактный (B)",
+      bodyTypes: "Седан",
+      yearOfIssue: "2018",
+      color: "Серый",
+      fuel: "Бензин",
+      transmission: "Механика",
+      averageFuelConsumption: "6.5 Л",
+      engineCapacity: "1.6 Л.",
+      numberOfSeats: "5",
+      trunk: "460 Л",
+    }
+  },
+  {
+    carImg: carIMg,
+    cardTitle: "Авто",
+    cardDescription: 'Описание авто',
+    price: 50,
+    settings: {
+      mark: "Volkswagen",
+      model: "Polo",
+      class: "Компактный (B)",
+      bodyTypes: "Седан",
+      yearOfIssue: "2018",
+      color: "Серый",
+      fuel: "Бензин",
+      transmission: "Механика",
+      averageFuelConsumption: "6.5 Л",
+      engineCapacity: "1.6 Л.",
+      numberOfSeats: "5",
+      trunk: "460 Л",
+    }
   },
 ]
 
